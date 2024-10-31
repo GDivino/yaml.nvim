@@ -87,7 +87,7 @@ local function get_keys(node, bufnr)
 	end
 
 	reverse(keys)
-	return table.concat(keys, ".")
+	return table.concat(keys, ">")
 end
 
 M.parse = function(node)
